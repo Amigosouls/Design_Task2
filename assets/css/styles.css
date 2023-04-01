@@ -1,0 +1,11 @@
+.heading{
+    background-image: url(D:/Training/Design_Task2/assets/images/head-bg.png),url(D:/Training/Design_Task2/assets/images/head-shadow.png),url(D:/Training/Design_Task2/assets/images/bg-tint.png);
+    background-size: cover,contain,contain;
+    height: 600px;
+    background-blend-mode: normal,lighten,lighten;
+}
+
+.heading li >
+{
+    font-family: "Quicksand";
+}
