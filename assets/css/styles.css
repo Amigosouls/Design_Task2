@@ -1,43 +1,5 @@
 .heading{
-    background-image: url(D:/Training/Design_Task2/assets/images/head-bg.png),url(D:/Training/Design_Task2/assets/images/head-shadow.png),url(D:/Training/Design_Task2/assets/images/bg-tint.png);
-    background-size: cover,contain,contain;
-    height: 840px;
-    background-blend-mode: normal,lighten,lighten;
-    font-family: "Quicksand";
-}
-
-.empty{
-    height:200px;
-}
-.empty2{
-    height:250px;
-}
-.buy{
-    background-color: #aab33c;
-    border-style: none;
-}
-.hc1 h1{
-    font-family: webFont;
-    color:  #aab33c;
-    font-size: 80px
-}
-.hc1 h4{
-    font-size: 35px;
-    color: antiquewhite;
-    font-family: "Quicksand";
-    font-weight:200px;
-}
-
-@font-face {
-    font-family: webFont;
-    src: url(D:/Training/Design_Task2/assets/css/font.ttf);
-
-}
-.para{
-    max-width: 100%;
-    text-align: center;
-    justify-content: center;
-}
-.para >h3{
-    max-width: 30%;
+    background-image: url(/assets/images/bg-main.png);
+    background-size: cover;
+    background-position: center;
 }
