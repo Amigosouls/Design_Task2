@@ -2,4 +2,36 @@
     background-image: url(/assets/images/bg-main.png);
     background-size: cover;
     background-position: center;
+    font-family: "Quicksand";
+}
+
+.heading .col-5 >h3{
+    color: beige;
+
+}
+.heading .col-5 >h2{
+    font-family: mainFont;
+    font-size: 80px;
+    color: #aab33c;
+}
+.heading ul >button{
+    background-color: #aab33c;
+    border-style: none;
+}
+
+
+@font-face {
+    font-family: mainFont;
+    src: url(/assets/css/font.ttf);
+}
+
+/*  About  */
+
+.about .container{
+    text-align: center;
+    max-width: 60%;
+}
+
+.about .container >p{
+    max-width: 25%;
 }
