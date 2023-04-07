@@ -1,22 +1,29 @@
-.heading{
+.heading {
     background-image: url(/assets/images/bg-main.png);
     background-size: cover;
     background-position: center;
     font-family: "Quicksand";
+    font-weight: bolder;
 }
 
-.heading .col-5 >h3{
+.heading .col>h3 {
     color: beige;
-
+    font-weight: bolder;
+    max-width: 80%;
 }
-.heading .col-5 >h2{
+
+.heading .col>h2 {
     font-family: mainFont;
     font-size: 80px;
     color: #aab33c;
+    max-width: 60%
 }
-.heading ul >button{
+
+.heading ul>button {
     background-color: #aab33c;
     border-style: none;
+    font-family: "Quicksand";
+    font-weight: bolder;
 }
 
 
@@ -25,13 +32,63 @@
     src: url(/assets/css/font.ttf);
 }
 
-/*  About  */
-
-.about .container{
-    text-align: center;
-    max-width: 60%;
+@font-face {
+    font-family: Quicksand;
+    src: url(/assets/css/Quicksand-VariableFont_wght.ttf);
 }
 
-.about .container >p{
-    max-width: 25%;
+/*  About  */
+
+.about .container {
+    text-align: center;
+    max-width: 40%;
+}
+
+.about .container>p {
+    max-width: 100%;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Quicksand";
+}
+
+/*  Cards  */
+
+.abt_cards .container .row .card {
+    background-color: rgba(229, 232, 196, 255);
+}
+
+.abt_cards .container .row .card img {
+    height: 150px;
+    width: 160px;
+}
+
+.abt_cards .container .row .card p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+/* Specs */
+.specs .container .row .p1 {
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    max-width: 70%;
+}
+
+.specs .container .row .p2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
 }
