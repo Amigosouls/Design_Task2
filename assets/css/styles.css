@@ -6,17 +6,16 @@
     font-weight: bolder;
 }
 
-.heading .col>h3 {
+.heading .col-4>h3 {
     color: beige;
     font-weight: bolder;
-    max-width: 80%;
+    width:90%;
 }
 
-.heading .col>h2 {
+.heading .col-4>h2 {
     font-family: mainFont;
     font-size: 80px;
     color: #aab33c;
-    max-width: 60%
 }
 
 .heading ul>button {
@@ -58,11 +57,12 @@
 
 .abt_cards .container .row .card {
     background-color: rgba(229, 232, 196, 255);
+    text-align: center;
 }
 
 .abt_cards .container .row .card img {
     height: 150px;
-    width: 160px;
+    width: 150px;
 }
 
 .abt_cards .container .row .card p {
@@ -90,6 +90,15 @@
     line-height: 24px;
     color: #404142;
     font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.specs .container-sm .r2 p {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
     font-family: "Quicksand";
 }
 
@@ -168,12 +177,12 @@
     border-top-right-radius: 10px;
 }
 
-.table-striped tbody td{
+.table-striped tbody td {
     text-align: center;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color:rgba(237,238,215,255);
+    background-color: rgba(237, 238, 215, 255);
 }
 
 .table-striped tbody td:nth-of-type(odd) {
@@ -188,6 +197,7 @@
     height: 50px;
 
 }
+
 #tblep2 {
     color: #aab33c;
     font-size: medium;
@@ -205,8 +215,9 @@
     font-weight: 800;
 
 }
-.fa-circle-check{
-    color:#aab33c;
+
+.fa-circle-check {
+    color: #aab33c;
 }
 
 /*  Learn More  */
@@ -214,7 +225,7 @@
     background-image: url(/assets/images/learn_more-bg.png);
 }
 
-.learn_more .container>p {
+.learn_more .container>a {
     font-size: 40px;
     line-height: 46px;
     color: #404142;
@@ -222,5 +233,16 @@
     font-family: "Quicksand";
     text-align: center;
     height: 100px;
-    max-width: 80%;
+    justify-content: center;
+}
+
+.learn_more .learn_link {
+    font-size: 60px;
+}
+
+.learn_more .container #innercard{
+    position: relative;
+}
+.learn_more .container #innercardtext{
+    position: absolute;
 }
