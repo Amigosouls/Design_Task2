@@ -75,7 +75,7 @@
 }
 
 /* Specs */
-.specs .container .row .p1 {
+.specs .container-sm .row .p1 {
     font-size: 30px;
     line-height: 37px;
     text-transform: uppercase;
@@ -85,7 +85,7 @@
     max-width: 70%;
 }
 
-.specs .container .row .p2 {
+.specs .container-sm .row .p2 {
     font-size: 14px;
     line-height: 24px;
     color: #404142;
@@ -94,6 +94,133 @@
 }
 
 /* Tools */
-.tools{
+.tools {
+    background-color: rgba(246, 247, 235, 255);
+}
+
+.tools .container-fluid .para1 {
+    font-size: 45px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    max-width: 100%;
+}
+
+.tools .container-fluid img {
+    align-items: end;
+    justify-content: left;
+}
+
+@media screen and (max-width: 768px) {
+    .tools .container-fluid img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tools .container-fluid .cl1 {
+        display: none;
+    }
+
+    .tools .container-fluid .cl2 {
+        max-width: 100%;
+    }
+}
+
+/*   Plans   */
+
+#tablehead {
     background-color: #aab33c;
+    color: #ffffff;
+    font-family: "Quicksand";
+    font-size: 40px;
+
+}
+
+#tablesubhead {
+    font-size: 25px;
+}
+
+.textp {
+    font-size: xx-small;
+    font-family: "Quicksand";
+    ;
+
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price {
+    font-size: 16px;
+    font-family: "Quicksand";
+    font-weight: 600;
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-striped tbody td{
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:rgba(237,238,215,255);
+}
+
+.table-striped tbody td:nth-of-type(odd) {
+    box-shadow: -5px 0 5px -5px #333, 7px 0 7px -7px #313030;
+}
+
+.tblep {
+    /* white-space: pre-line; */
+    font-weight: 300px;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+
+}
+#tblep2 {
+    color: #aab33c;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#pp {
+    color: #aab33c;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tableend {
+    white-space: pre-line;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+
+}
+.fa-circle-check{
+    color:#aab33c;
+}
+
+/*  Learn More  */
+.learn_more .container-fluid {
+    background-image: url(/assets/images/learn_more-bg.png);
+}
+
+.learn_more .container>p {
+    font-size: 40px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    height: 100px;
+    max-width: 80%;
 }
