@@ -239,10 +239,32 @@
 .learn_more .learn_link {
     font-size: 60px;
 }
-
-.learn_more .container #innercard{
-    position: relative;
+.learn_more .container .card-img-overlay{
+    margin-top: 70px;
 }
-.learn_more .container #innercardtext{
-    position: absolute;
+
+.learn_more .container .card-body p{
+    font-size: 8px;
+}
+
+.learn_more h2{
+    
+}
+
+.learn_more button{
+    align-items: center;
+    background-color: #aab33c;
+    font-size: 20px;
+    font-family: "Quicksand";
+}
+
+.footer .index{
+    background-image: url(/assets/images/foot-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(237, 238, 215, 255);
+}
+.footer .copyrights{
+    background-color:#aab33c;
+    background-size: cover;
 }
